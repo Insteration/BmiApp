@@ -9,6 +9,18 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    @IBOutlet weak var ageTextField: NSTextField!
+    @IBOutlet weak var heightTextField: NSTextField!
+    @IBOutlet weak var weightTextField: NSTextField!
+    @IBOutlet weak var resultTextLabel: NSTextField!
+    
+    @IBAction func calculateBmiButton(_ sender: NSButtonCell) {
+        
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
