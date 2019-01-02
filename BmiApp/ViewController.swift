@@ -15,9 +15,11 @@ class ViewController: NSViewController {
     @IBOutlet weak var heightTextField: NSTextField!
     @IBOutlet weak var weightTextField: NSTextField!
     @IBOutlet weak var resultTextLabel: NSTextField!
+    
     @IBAction func calculateBmiButton(_ sender: NSButtonCell) {
         _ = bmiModel.inputData(heightTextField.stringValue, weightTextField.stringValue)
-        resultTextLabel.floatValue = bmiModel.calculateBmi()
+        resultTextLabel.stringValue = String(format: "%.2f", bmiModel.calculateBmi())
+        print(resultTextLabel)
     }
 }
 

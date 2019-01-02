@@ -778,7 +778,7 @@
                     <connections>
                         <outlet property="ageTextField" destination="7Rc-Lp-IDg" id="9Zl-8v-tW8"/>
                         <outlet property="heightTextField" destination="uDZ-37-91K" id="usw-ON-ZgC"/>
-                        <outlet property="resultTextLabel" destination="mkc-7g-JXh" id="bqg-ZF-POe"/>
+                        <outlet property="resultTextLabel" destination="mZ7-vu-ytN" id="rfa-5A-nb3"/>
                         <outlet property="weightTextField" destination="CFE-17-v3c" id="DHI-IG-uyq"/>
                     </connections>
                 </viewController>

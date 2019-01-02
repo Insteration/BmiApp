@@ -9,23 +9,24 @@
 import Foundation
 
 class Bmi {
-    var age: Float32 = 0.0
-    var height: Float32 = 0.0
-    var weight: Float32 = 0.0
+    var age: Float = 0.0
+    var height: Float = 0.0
+    var weight: Float = 0.0
     
 //    init (age: Float32, height: Float32, weight: Float32) {
 //        self.age = age
 //        self.height = height
 //        self.weight = weight
 //    }
-    func inputData(_ heightData: String, _ weightData: String) -> (Float32, Float32) {
-        height = Float32(heightData) ?? 0
-        weight = Float32(weightData) ?? 0
+    func inputData(_ heightData: String, _ weightData: String) -> (Float, Float) {
+        height = Float(heightData) ?? 0
+        weight = Float(weightData) ?? 0
         return (height, weight)
     }
     
-    func calculateBmi() -> Float32 {
+    func calculateBmi() -> Float {
         let bmi = ((weight) / ((height) * (height))) * 10000
+        print(bmi)
         return bmi
     }
 }
