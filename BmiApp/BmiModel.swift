@@ -13,11 +13,6 @@ class Bmi {
     var height: Float = 0.0
     var weight: Float = 0.0
     
-//    init (age: Float32, height: Float32, weight: Float32) {
-//        self.age = age
-//        self.height = height
-//        self.weight = weight
-//    }
     func inputData(_ heightData: String, _ weightData: String) -> (Float, Float) {
         height = Float(heightData) ?? 0
         weight = Float(weightData) ?? 0
