@@ -746,11 +746,11 @@
                                     </connections>
                                 </buttonCell>
                             </button>
-                            <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mkc-7g-JXh">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mkc-7g-JXh">
                                 <rect key="frame" x="152" y="20" width="178" height="97"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="97" id="6Ac-1e-s2I"/>
-                                    <constraint firstAttribute="width" constant="174" id="MtM-Q5-wY7"/>
+                                    <constraint firstAttribute="width" constant="174" id="Evy-WW-gca"/>
+                                    <constraint firstAttribute="height" constant="97" id="peN-9o-o3h"/>
                                 </constraints>
                                 <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Label" id="mZ7-vu-ytN">
                                     <font key="font" metaFont="system"/>
@@ -760,9 +760,8 @@
                             </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="mkc-7g-JXh" firstAttribute="trailing" secondItem="7wB-De-kkJ" secondAttribute="trailing" id="9tR-bG-EaY"/>
+                            <constraint firstItem="mkc-7g-JXh" firstAttribute="trailing" secondItem="7wB-De-kkJ" secondAttribute="trailing" id="2nO-oR-1oV"/>
                             <constraint firstItem="uDZ-37-91K" firstAttribute="top" secondItem="7Rc-Lp-IDg" secondAttribute="bottom" constant="10" symbolic="YES" id="CJ0-vZ-q8G"/>
-                            <constraint firstItem="mkc-7g-JXh" firstAttribute="top" secondItem="7wB-De-kkJ" secondAttribute="bottom" constant="8" symbolic="YES" id="I3X-l1-KD9"/>
                             <constraint firstItem="7Rc-Lp-IDg" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="LtH-cu-Lbx"/>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="leading" secondItem="uDZ-37-91K" secondAttribute="leading" id="M6v-HX-EKR"/>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="top" secondItem="uDZ-37-91K" secondAttribute="bottom" constant="10" symbolic="YES" id="Sh2-bx-6R5"/>
@@ -772,6 +771,7 @@
                             <constraint firstItem="7wB-De-kkJ" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="gYn-wy-SAM"/>
                             <constraint firstItem="7wB-De-kkJ" firstAttribute="trailing" secondItem="CFE-17-v3c" secondAttribute="trailing" id="idg-00-n5g"/>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="trailing" secondItem="uDZ-37-91K" secondAttribute="trailing" id="p7W-JE-UkE"/>
+                            <constraint firstItem="mkc-7g-JXh" firstAttribute="top" secondItem="7wB-De-kkJ" secondAttribute="bottom" constant="8" symbolic="YES" id="uWg-0N-yXM"/>
                             <constraint firstItem="uDZ-37-91K" firstAttribute="trailing" secondItem="7Rc-Lp-IDg" secondAttribute="trailing" id="xbu-1B-2mh"/>
                         </constraints>
                     </view>

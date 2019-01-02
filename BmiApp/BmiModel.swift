@@ -24,4 +24,27 @@ class Bmi {
         print(bmi)
         return bmi
     }
+    
+    func healthDefinition(bmi: Float) -> String {
+        var healthDefinition = ""
+        switch bmi {
+        case ..<17.5:
+          healthDefinition = "Insufficient"
+        case 17.5..<19.5:
+            healthDefinition = "Slightly reduced, not harmful to health"
+        case 19.5..<22.9:
+            healthDefinition = "Normal"
+        case 23.0..<27.4:
+            healthDefinition = "Superfluous"
+        case 27.5..<29.9:
+            healthDefinition = "Obesity of 1 degree"
+        case 30.0..<34.9:
+            healthDefinition = "Obesity of 2 degree"
+        case 35.0..<39.9:
+            healthDefinition = "Obesity of 3 degree"
+        default:
+            ()
+        }
+        return healthDefinition
+    }
 }
