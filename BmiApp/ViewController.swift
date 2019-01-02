@@ -9,30 +9,15 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    let bmiModel = Bmi()
     
     @IBOutlet weak var ageTextField: NSTextField!
     @IBOutlet weak var heightTextField: NSTextField!
     @IBOutlet weak var weightTextField: NSTextField!
     @IBOutlet weak var resultTextLabel: NSTextField!
     @IBAction func calculateBmiButton(_ sender: NSButtonCell) {
-        
+        _ = bmiModel.inputData(heightTextField.stringValue, weightTextField.stringValue)
+        resultTextLabel.floatValue = bmiModel.calculateBmi()
     }
-    
-    
-    
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
 }
 
