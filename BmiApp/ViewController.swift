@@ -11,7 +11,6 @@ import Cocoa
 class ViewController: NSViewController {
     let bmiModel = Bmi()
     
-    @IBOutlet weak var ageTextField: NSTextField!
     @IBOutlet weak var heightTextField: NSTextField!
     @IBOutlet weak var weightTextField: NSTextField!
     @IBOutlet weak var resultTextLabel: NSTextField!
@@ -19,8 +18,6 @@ class ViewController: NSViewController {
     @IBAction func calculateBmiButton(_ sender: NSButtonCell) {
         _ = bmiModel.inputData(heightTextField.stringValue, weightTextField.stringValue)
         resultTextLabel.stringValue = bmiModel.healthDefinition(bmi: bmiModel.calculateBmi())
-//        resultTextLabel.stringValue = String(format: "%.2f", bmiModel.calculateBmi())
-//        resultTextLabel.isHidden = false
     }
 }
 

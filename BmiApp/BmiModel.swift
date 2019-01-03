@@ -9,11 +9,10 @@
 import Foundation
 
 class Bmi {
-    var age: Float = 0.0
     var height: Float = 0.0
     var weight: Float = 0.0
     var bmi: Float = 0.0
-    
+        
     func inputData(_ heightData: String, _ weightData: String) -> (Float, Float) {
         height = Float(heightData) ?? 0
         weight = Float(weightData) ?? 0
