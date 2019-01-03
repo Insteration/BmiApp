@@ -738,8 +738,12 @@
                                     </connections>
                                 </buttonCell>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mkc-7g-JXh">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mkc-7g-JXh">
                                 <rect key="frame" x="152" y="20" width="178" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="VKy-1O-XGd"/>
+                                    <constraint firstAttribute="width" constant="174" id="WV4-NF-T6H"/>
+                                </constraints>
                                 <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="mZ7-vu-ytN">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -749,14 +753,14 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="leading" secondItem="uDZ-37-91K" secondAttribute="leading" id="3VS-xq-96l"/>
+                            <constraint firstItem="mkc-7g-JXh" firstAttribute="top" secondItem="7wB-De-kkJ" secondAttribute="bottom" constant="8" symbolic="YES" id="44E-Zc-wKl"/>
                             <constraint firstItem="uDZ-37-91K" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="52" id="9im-Ig-73w"/>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="top" secondItem="uDZ-37-91K" secondAttribute="bottom" constant="10" symbolic="YES" id="Ujj-LU-YHt"/>
-                            <constraint firstItem="uDZ-37-91K" firstAttribute="trailing" secondItem="mkc-7g-JXh" secondAttribute="trailing" id="cDh-5o-29P"/>
                             <constraint firstItem="7wB-De-kkJ" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="dlP-qi-xbE"/>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="trailing" secondItem="uDZ-37-91K" secondAttribute="trailing" id="fdp-aK-2la"/>
-                            <constraint firstItem="mkc-7g-JXh" firstAttribute="top" secondItem="7wB-De-kkJ" secondAttribute="bottom" constant="8" symbolic="YES" id="l5Q-gn-t71"/>
                             <constraint firstItem="7wB-De-kkJ" firstAttribute="leading" secondItem="CFE-17-v3c" secondAttribute="leading" id="p1T-ug-Ecf"/>
                             <constraint firstItem="uDZ-37-91K" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="uAS-Zv-SGy"/>
+                            <constraint firstItem="mkc-7g-JXh" firstAttribute="trailing" secondItem="7wB-De-kkJ" secondAttribute="trailing" id="vQb-sY-3ka"/>
                             <constraint firstItem="7wB-De-kkJ" firstAttribute="trailing" secondItem="CFE-17-v3c" secondAttribute="trailing" id="zzM-ID-SMV"/>
                         </constraints>
                     </view>
