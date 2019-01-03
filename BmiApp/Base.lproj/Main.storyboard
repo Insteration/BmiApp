@@ -744,7 +744,7 @@
                                     <constraint firstAttribute="height" constant="97" id="VKy-1O-XGd"/>
                                     <constraint firstAttribute="width" constant="174" id="WV4-NF-T6H"/>
                                 </constraints>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="mZ7-vu-ytN">
+                                <textFieldCell key="cell" lineBreakMode="truncatingTail" truncatesLastVisibleLine="YES" alignment="center" id="mZ7-vu-ytN">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

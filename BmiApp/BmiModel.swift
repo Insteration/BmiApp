@@ -29,19 +29,19 @@ class Bmi {
         var healthDefinition = ""
         switch bmi {
         case ..<17.5:
-          healthDefinition = "Insufficient, your Body Mass index is \(bmi)"
+          healthDefinition = "Insufficient, BMI is \(bmi)"
         case 17.5..<19.5:
-            healthDefinition = "Slightly reduced, not harmful to health, your Body Mass index is \(bmi)"
+            healthDefinition = "Slightly reduced, BMI is \(bmi)"
         case 19.5..<22.9:
-            healthDefinition = "Normal, your Body Mass index is \(bmi)"
+            healthDefinition = "Normal, BMI is \(bmi)"
         case 23.0..<27.4:
-            healthDefinition = "Superfluous, your Body Mass index is \(bmi)"
+            healthDefinition = "Superfluous, BMI is \(bmi)"
         case 27.5..<29.9:
-            healthDefinition = "Obesity of 1 degree, your Body Mass index is \(bmi)"
+            healthDefinition = "Obesity of 1 degree, BMI is \(bmi)"
         case 30.0..<34.9:
-            healthDefinition = "Obesity of 2 degree, your Body Mass index is \(bmi)"
+            healthDefinition = "Obesity of 2 degree, BMI is \(bmi)"
         case 35.0..<39.9:
-            healthDefinition = "Obesity of 3 degree, your Body Mass index is \(bmi)"
+            healthDefinition = "Obesity of 3 degree, BMI is\(bmi)"
         default:
             ()
         }
