@@ -12,6 +12,7 @@ class Bmi {
     var age: Float = 0.0
     var height: Float = 0.0
     var weight: Float = 0.0
+    var bmi: Float = 0.0
     
     func inputData(_ heightData: String, _ weightData: String) -> (Float, Float) {
         height = Float(heightData) ?? 0
@@ -29,19 +30,19 @@ class Bmi {
         var healthDefinition = ""
         switch bmi {
         case ..<17.5:
-          healthDefinition = "Insufficient"
+          healthDefinition = "Insufficient, your Body Mass index is \(bmi)"
         case 17.5..<19.5:
-            healthDefinition = "Slightly reduced, not harmful to health"
+            healthDefinition = "Slightly reduced, not harmful to health, your Body Mass index is \(bmi)"
         case 19.5..<22.9:
-            healthDefinition = "Normal"
+            healthDefinition = "Normal, your Body Mass index is \(bmi)"
         case 23.0..<27.4:
-            healthDefinition = "Superfluous"
+            healthDefinition = "Superfluous, your Body Mass index is \(bmi)"
         case 27.5..<29.9:
-            healthDefinition = "Obesity of 1 degree"
+            healthDefinition = "Obesity of 1 degree, your Body Mass index is \(bmi)"
         case 30.0..<34.9:
-            healthDefinition = "Obesity of 2 degree"
+            healthDefinition = "Obesity of 2 degree, your Body Mass index is \(bmi)"
         case 35.0..<39.9:
-            healthDefinition = "Obesity of 3 degree"
+            healthDefinition = "Obesity of 3 degree, your Body Mass index is \(bmi)"
         default:
             ()
         }

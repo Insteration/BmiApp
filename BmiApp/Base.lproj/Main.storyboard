@@ -712,7 +712,7 @@
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Rc-Lp-IDg">
                                 <rect key="frame" x="152" y="228" width="176" height="22"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="176" id="d9l-ZX-dlV"/>
+                                    <constraint firstAttribute="width" constant="176" id="K5T-It-rrx"/>
                                 </constraints>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" placeholderString="enter your age" drawsBackground="YES" id="1Yj-4Z-OSe">
                                     <font key="font" usesAppearanceFont="YES"/>
@@ -752,7 +752,7 @@
                                     <constraint firstAttribute="width" constant="174" id="Evy-WW-gca"/>
                                     <constraint firstAttribute="height" constant="97" id="peN-9o-o3h"/>
                                 </constraints>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Label" id="mZ7-vu-ytN">
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="mZ7-vu-ytN">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -761,18 +761,18 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="mkc-7g-JXh" firstAttribute="trailing" secondItem="7wB-De-kkJ" secondAttribute="trailing" id="2nO-oR-1oV"/>
-                            <constraint firstItem="uDZ-37-91K" firstAttribute="top" secondItem="7Rc-Lp-IDg" secondAttribute="bottom" constant="10" symbolic="YES" id="CJ0-vZ-q8G"/>
-                            <constraint firstItem="7Rc-Lp-IDg" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="LtH-cu-Lbx"/>
+                            <constraint firstItem="7Rc-Lp-IDg" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="CG8-Jm-6Uk"/>
+                            <constraint firstItem="7Rc-Lp-IDg" firstAttribute="trailing" secondItem="uDZ-37-91K" secondAttribute="trailing" id="CvO-zX-rAV"/>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="leading" secondItem="uDZ-37-91K" secondAttribute="leading" id="M6v-HX-EKR"/>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="top" secondItem="uDZ-37-91K" secondAttribute="bottom" constant="10" symbolic="YES" id="Sh2-bx-6R5"/>
-                            <constraint firstItem="uDZ-37-91K" firstAttribute="leading" secondItem="7Rc-Lp-IDg" secondAttribute="leading" id="WTz-pU-mh8"/>
-                            <constraint firstItem="7Rc-Lp-IDg" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Wo9-We-XhI"/>
+                            <constraint firstItem="uDZ-37-91K" firstAttribute="top" secondItem="7Rc-Lp-IDg" secondAttribute="bottom" constant="10" symbolic="YES" id="XKm-KJ-WdV"/>
+                            <constraint firstItem="7Rc-Lp-IDg" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="ZTB-Uq-xbo"/>
                             <constraint firstItem="7wB-De-kkJ" firstAttribute="leading" secondItem="CFE-17-v3c" secondAttribute="leading" id="ZVK-T0-L4Q"/>
                             <constraint firstItem="7wB-De-kkJ" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="gYn-wy-SAM"/>
                             <constraint firstItem="7wB-De-kkJ" firstAttribute="trailing" secondItem="CFE-17-v3c" secondAttribute="trailing" id="idg-00-n5g"/>
+                            <constraint firstItem="7Rc-Lp-IDg" firstAttribute="leading" secondItem="uDZ-37-91K" secondAttribute="leading" id="o4H-GK-bbY"/>
                             <constraint firstItem="CFE-17-v3c" firstAttribute="trailing" secondItem="uDZ-37-91K" secondAttribute="trailing" id="p7W-JE-UkE"/>
                             <constraint firstItem="mkc-7g-JXh" firstAttribute="top" secondItem="7wB-De-kkJ" secondAttribute="bottom" constant="8" symbolic="YES" id="uWg-0N-yXM"/>
-                            <constraint firstItem="uDZ-37-91K" firstAttribute="trailing" secondItem="7Rc-Lp-IDg" secondAttribute="trailing" id="xbu-1B-2mh"/>
                         </constraints>
                     </view>
                     <connections>
