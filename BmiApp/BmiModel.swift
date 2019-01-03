@@ -8,26 +8,10 @@
 
 import Foundation
 
-protocol BmiProtocol {
-    func inputData(_ heightData: String, _ weightData: String) -> (Float, Float)
-    func calculateBmi() -> Float
-    func healthDefinition(bmi: Float) -> String
-}
-
-class Bmi: BmiProtocol {
+class Bmi {
     var height: Float = 0.0
     var weight: Float = 0.0
     var bmi: Float = 0.0
-    
-    func checkInputData(_ heightData: String, _ weightData: String) -> (String, String) {
-    
-        
-//        if heightData == nil || Float(heightData) < 130 || Float(heightData) > 230 {
-//            heightData = "Error"
-//        }
-//
-        return (heightData, weightData)
-    }
     
     func inputData(_ heightData: String, _ weightData: String) -> (Float, Float) {
         height = Float(heightData) ?? 0

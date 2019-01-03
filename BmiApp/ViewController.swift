@@ -9,7 +9,7 @@
 import Cocoa
 
 class ViewController: NSViewController {
-    let bmiModel = BmiProtocol()
+    let bmiModel = Bmi()
     
     @IBOutlet weak var heightTextField: NSTextField!
     @IBOutlet weak var weightTextField: NSTextField!
